@@ -1,10 +1,11 @@
 Home Loan Risk Management
+
 Financial institutions face significant capital risk when borrowers default on loans. This project implements a machine learning framework to predict loan default probability (TARGET) based on complex demographic, financial, and credit-related datasets.
 
-Project Objective
+Project Objective:
 The primary goal is to build a robust predictive model that identifies high-risk customers, enabling banks to make data-driven, risk-aware lending decisions and reduce potential financial losses.
 
-Data Architecture
+Data Architecture:
 The project utilizes a multifaceted dataset structure to build a holistic borrower profile:
 
 Application Data: Core demographic and financial attributes for 307,511 applicants.
@@ -13,7 +14,7 @@ Bureau Data: Historical credit data from the Credit Bureau.
 
 Financial Histories: Includes POS/CASH balances, installment payments, and credit card histories to capture repayment behavior.
 
-Key Technical Variables
+Key Technical Variables:
 AMT_INCOME_TOTAL: Total annual income.
 
 AMT_CREDIT: Total loan amount requested.
